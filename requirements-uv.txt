@@ -279,7 +279,7 @@ tokenizers==0.21.0
     # via transformers
 tomlkit==0.13.2
     # via gradio
-torch==2.5.1+cu124
+torch==2.8.0.dev20250417+cu128
     # via
     #   -r ./requirements.txt
     #   zonos (./pyproject.toml)
@@ -288,7 +288,8 @@ torch==2.5.1+cu124
     #   mamba-ssm
     #   torchaudio
     #   zonos
-torchaudio==2.5.1+cu124
+torchvision==0.22.0.dev20250418+cu128
+torchaudio==2.6.0.dev20250418+cu128
     # via
     #   zonos (./pyproject.toml)
     #   zonos

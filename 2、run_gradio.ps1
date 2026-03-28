@@ -54,6 +54,11 @@ $Env:CUDA_HOME = "${env:CUDA_PATH}"
 $Env:PHONEMIZER_ESPEAK_LIBRARY = "C:\Program Files\eSpeak NG\libespeak-ng.dll"
 $Env:GRADIO_HOST = "127.0.0.1"
 
+$env:TORCH_CUDA_ARCH_LIST = "12.8"
+$env:CUDA_LAUNCH_BLOCKING = "1"
+$env:PYTORCH_CUDA_ALLOC_CONF = "max_split_size_mb:512" 
+
+
 python -m gradio_interface
 
 Read-Host | Out-Null ;
